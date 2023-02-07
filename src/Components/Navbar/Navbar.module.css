@@ -1,0 +1,33 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    justify-content: space-between;
+    padding: 0.5rem 10rem;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav__brand {
+    gap: 1rem;
+}
+
+.nav__cart {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.nav__cart>p:nth-of-type(2) {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.nav__brand>img {
+    width: 50px;
+}

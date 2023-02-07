@@ -1,10 +1,11 @@
-import styles from 'App.module.css';
+import styles from "./App.module.css";
+import Navbar from "./Components/Navbar/Navbar";
 const App = () => {
   return (
     <div className={`${styles.app}`}>
-      <h1>Hello</h1>
+      <Navbar />
     </div>
   );
-}
+};
 
 export default App;
