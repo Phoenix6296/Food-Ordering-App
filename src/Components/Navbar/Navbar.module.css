@@ -24,6 +24,8 @@
 
 .nav__brand {
     gap: 1rem;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav__cart {
